@@ -1,4 +1,0 @@
-<!DOCTYPE html>
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css" />
-</head>
