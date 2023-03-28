@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moja strona z formatowaniem CSS</title>
+	<style>
+		h1 {
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+		}
+		h2 {
+			font-size: 20px;
+			font-weight; bold;
+			text-align: center;
+		}
+		textarea {
+			width:500px; 
+			height:100px;
+			margin: auto; 
+			display: block
+		}
+
+		
+	</style>
+</head>
+<body>
+<h1> Sposoby podłączania styli do strony (skrócone zestawienie). </h1>
+<h2> <u> Zewnętrzny </u> arkusz stylów.  <h2>
+<textarea> <head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+
+</textarea>
+<h2> Styl <u> lokalny </u> inaczej: (styl wpisany,liniowy,linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony. </h2>
+<textarea> <selektor style="cecha1: wartość1; cecha2: wartość2...">
+...
+</selektor> 
+</textarea>
+<h2> <u> Alternatywny </u> arkusz stylów.  <h2>
+<textarea> <head>
+ <link rel="Stylesheet" type="text/css"  href="style.css" title="Nazwa domyślna" />
+ <link rel="Alternate stylesheet" type="text/css"  href="style1.css" title="Nazwa 1" />
+ <link rel="Alternate stylesheet" type="text/css"  href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+<h2> <u> Import </u> arkusza stylów.  <h2>
+<textarea> <style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</body>
+</html>
