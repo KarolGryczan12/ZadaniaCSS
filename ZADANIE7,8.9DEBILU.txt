@@ -1,0 +1,38 @@
+<html>
+<head>
+<body>
+
+
+
+	<ol>
+<H1> 
+
+		<li> Na co pozwala styl lokalny, który element bêdzie formatowany z u¿yciem stylu lokalnego? </li>
+		
+</H1>
+
+<H1>
+
+		<li> TABELA DO ZRIOBIENIA </li>
+</H1>
+
+<p> nwm </p>
+<H1>
+
+		<li> Co mo¿e byæ selektorem? </li>
+</H1>
+
+<H1>
+
+		<li> Co wipisujemy jako "cechê". Jakie jest znaczenie œredników? </li>
+</H1>
+
+ <H1>
+
+		<li>  Co wipisujemy jako "wartoœæ" (w deklaracji stylu). </li>
+</H1>
+
+	</ol>
+</body>
+</head>
+</html>
