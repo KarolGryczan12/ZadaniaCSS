@@ -7,31 +7,30 @@
 	<ol>
 <H1> 
 
-		<li> Na co pozwala styl lokalny, który element bêdzie formatowany z u¿yciem stylu lokalnego? </li>
+		<li> Na co pozwala styl lokalny, ktÃ³ry element bÄ™dzie formatowany z uÅ¼yciem stylu lokalnego? </li>
 		
 </H1>
-
+<p> nwm </p>
 <H1>
 
 		<li> TABELA DO ZRIOBIENIA </li>
 </H1>
-
 <p> nwm </p>
 <H1>
 
-		<li> Co mo¿e byæ selektorem? </li>
+		<li> Co moÅ¼e byÄ‡ selektorem? </li>
 </H1>
-
+<p> nwm </p>
 <H1>
 
-		<li> Co wipisujemy jako "cechê". Jakie jest znaczenie œredników? </li>
+		<li> Co wipisujemy jako "cechÄ™". Jakie jest znaczenie Å›rednikÃ³w? </li>
 </H1>
-
+<p> nwm </p>
  <H1>
 
-		<li>  Co wipisujemy jako "wartoœæ" (w deklaracji stylu). </li>
+		<li>  Co wipisujemy jako "wartoÅ›Ä‡" (w deklaracji stylu). </li>
 </H1>
-
+<p> nwm </p>
 	</ol>
 </body>
 </head>
