@@ -1,2 +1,0 @@
-# ZadaniaCSS
-Zadania z css
