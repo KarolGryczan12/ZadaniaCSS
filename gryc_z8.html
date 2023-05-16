@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Z8 Opis stylu wewnętrznego</title>
+  <style>
+  
+    table {
+      border: 1px solid black;
+	  padding: 20px;
+    }
+	
+  </style>
+</head>
+<body>
+  <h1>Z8 Opis stylu wewnętrznego</h1>
+
+  <ol>
+    <li>
+      <h2>Gdzie jest wstawiany?</h2>
+      <p>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &lt;head> a 
+&lt;/head>).</p>
+    </li>
+
+    <li>
+      <h2>Składnia teoretyczna</h2>
+      
+      <table>
+        <tr>
+         <td>&lt;head>  
+		 <br> 
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)
+		 <br>
+		 &nbsp;&nbsp;&lt;style type="text/css">
+		 <br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }
+		 <br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }
+		 <br>
+		 &lt;/style>
+		 <br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)
+		 <br>
+		 &lt;/head>
+		 </td>
+
+        </tr>
+
+      </table>
+    </li>
+
+    <li>
+      <h2>Jakie mogę być selektory</h2>
+      <p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne</p>
+    </li>
+
+    <li>
+      <h2>Jakie mogę być cechy i wartości</h2>
+      <p>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.</p>
+    </li>
+
+    <li>
+      <h2>Co wpisujemy jako "wartość" w deklaracji stylu?</h2>
+      <p>Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji. </p>
+    </li>
+  </ol>
+
+</body>
+</html>
