@@ -1,0 +1,44 @@
+Temat: Wykonaj stronę jak poniżej używając instrukcji tła.
+1)Po wykonaniu zadania, widoczne(i działające) będą linki
+ w lewym oknie link  Zadanie 77
+ w prawym link Zadanie 77_kod.
+2)Nazwy plików zadanie77_cztery_pierwsze_litery_.html (bez polskich liter, małymi
+literami).
+3)Wymagania:
+ tytuł  nazwisko ucznia
+ polskie litery w standardzie UTF-8
+ styl wewnętrzny
+ zerowanie z użyciem wewnętrznego arkusza styli body poprzez:
+ body { margin: 0px;
+ border: 0px;
+ padding: 0px; }
+4)Wykonaj grafikę logo , które będzie umieszczne podczas rozwiązywania zadania. Poprzez
+zrzut ekranu i wycięcie logo ( patrz powyżej).
+Nazwa logo_duze_nazwisko_ucznia.PNG (bez polskich liter).
+5)Wykonaj miniaturę logo_male_nazwisko_ucznia.PNG (bez polskich liter), będziesz używał
+ten plik jako powtarzanie tła.
+Wymagania dla grafiki:
+ miniatura 50x50 pikseli
+Do wykonania tej miniatury użyj programu graficznego i skalowania.
+6)
+zdefiniuj trzy akapity:
+ p#zero_nazwisko_ucznia
+ p#jeden_nazwisko_ucznia
+ p#dwa_nazwisko_ucznia
+wyzeruj akapity poprzez:
+ margin: 0px;
+ border: 0px;
+ padding: 0px;
+użyj następujących instrukcji:
+background-color: ????????????;
+background-image:url(???????????);
+background-repeat:repeat-x;
+font-size:??pt;
+font-family:??;
+color:??;
+background-repeat:no-repeat;
+background-position:????????;
+background-repeat:repeat-y;
+background-repeat:repeat-y;
+7)W treści strony na końcu pod </HTML> zapisz jako komentarz
+ zapisz Twoje imię i nazwisko
